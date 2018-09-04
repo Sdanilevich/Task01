@@ -26,12 +26,12 @@ public class Main {
         CatalogNews catalogFromXML = JaxbParser.readXML(Constant.getFullPathFileXML());
         catalogFromXML.add(news);
 
-        OutputData.printCatalogNews(catalogFromXML);
+        //OutputData.printCatalogNews(catalogFromXML);
         JaxbParser.saveFile(catalogFromXML);
 
         OutputData.printCatalogNews(catalogFromXML);
 
-        HashMap<String, Object> parametersForFind = new HashMap<>();
+        HashMap<String, Object> parametersForFind = new HashMap<String, Object>();
         parametersForFind.put("providerName","tut.by");
         parametersForFind.put("country","Беларусь");
         Criteria criteriaFind = new Criteria();
