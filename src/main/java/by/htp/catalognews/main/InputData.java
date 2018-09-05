@@ -20,11 +20,16 @@ public class InputData {
                 OutputData.printInfoFromList(list);
                 System.out.println("Enter the number of value of the parameter <"+nameCriteria+">");
                 Scanner scanner = new Scanner(System.in);
-                int num = scanner.nextInt()-1;
-                if (num<=list.size()){
-                    valueCriteria = list.get(num);
+                if (scanner.hasNextInt()){
+                    int num = scanner.nextInt()-1;
+                    if (num<=list.size()){
+                        valueCriteria = list.get(num);
+                    }
+                    else {
+                        valueCriteria = "";
+                    }
                 }
-                else valueCriteria = "";
+                else valueCriteria = scanner.nextLine();
             }
             else{
                 System.out.println("Enter the value of the parameter <" + nameCriteria+">");
