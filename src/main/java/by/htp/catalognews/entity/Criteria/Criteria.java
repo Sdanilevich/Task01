@@ -6,14 +6,14 @@ import java.util.Map;
 
 public class Criteria {
 
-    private static HashMap<String, Object> criteria = new HashMap<String, Object>();
+    private HashMap<String, Object> criteria = new HashMap<String, Object>();
 
     public HashMap<String, Object> getCriteria() {
         return criteria;
     }
 
     public void setCriteria(HashMap<String, Object> criteria) {
-        Criteria.criteria = criteria;
+        this.criteria = criteria;
     }
 
     public void putValue(String key, Object value){
