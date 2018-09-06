@@ -1,6 +1,5 @@
 package by.htp.catalognews.main;
 
-import by.htp.catalognews.entity.Criteria.SearchCriteria;
 import by.htp.catalognews.service.Constant;
 import by.htp.catalognews.service.Util;
 

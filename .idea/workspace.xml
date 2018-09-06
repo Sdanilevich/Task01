@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d0cc7b-6ebb-4e25-9769-87fbc34a9211" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/catalog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/htp/catalognews/dao/DAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/htp/catalognews/dao/DAOFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/htp/catalognews/dao/xml/JaxbParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/htp/catalognews/dao/xml/JaxbParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/htp/catalognews/service/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/htp/catalognews/service/ServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/catalog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/InputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/InputData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Criteria.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Criteria.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/Criteria.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -99,15 +93,6 @@
                 <element signature="e#255#256#0" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchCriteria.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/SearchCriteria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -124,8 +109,8 @@
       <file leaf-file-name="InputData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/InputData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="61">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,6 +129,15 @@
                 <element signature="e#1457#1473#0" expanded="true" />
                 <element signature="e#2297#2313#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchCriteria.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/SearchCriteria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -218,10 +212,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/criteria.txt" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/Type.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/SearchCriteria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/InputData.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/catalognews/service/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/InputData.java" />
       </list>
     </option>
   </component>
@@ -324,30 +318,6 @@
               <item name="htp" type="462c0819:PsiDirectoryNode" />
               <item name="catalognews" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="catalognews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
-              <item name="htp" type="462c0819:PsiDirectoryNode" />
-              <item name="catalognews" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="catalognews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
-              <item name="htp" type="462c0819:PsiDirectoryNode" />
-              <item name="catalognews" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="catalognews" type="b2602c69:ProjectViewProjectNode" />
@@ -593,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536052914419</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactoring">
+      <created>1536130774460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536130774460</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1233" height="735" extended-state="7" />
+    <frame x="55" y="-7" width="1233" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -611,11 +588,11 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50042623" side_tool="true" weight="0.067993365" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.028985508" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957374" visible="true" weight="0.12727273" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957374" weight="0.12727273" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6796537" visible="true" weight="0.11508951" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6796537" visible="true" weight="0.2634271" />
       <window_info id="Structure" order="1" sideWeight="0.32034633" side_tool="true" weight="0.31713554" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -981,13 +958,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/criteria2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1000,23 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/SearchCriteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/InputData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,6 +1019,30 @@
             <element signature="e#255#256#0" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/main/InputData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/catalognews/entity/Criteria/SearchCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
         </state>
       </provider>
     </entry>
