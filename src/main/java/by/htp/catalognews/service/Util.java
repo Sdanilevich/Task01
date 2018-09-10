@@ -1,8 +1,6 @@
 package by.htp.catalognews.service;
 
-import by.htp.catalognews.entity.CatalogNews;
-import by.htp.catalognews.entity.Criteria.SearchCriteria;
-import by.htp.catalognews.entity.News;
+import by.htp.catalognews.entity.criteria.SearchCriteria;
 
 import java.io.*;
 import java.text.SimpleDateFormat;
